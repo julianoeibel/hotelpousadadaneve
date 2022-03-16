@@ -1,0 +1,16 @@
+$Mailer = new PHPMailer;
+    $Mailer->CharSet = 'utf-8';
+    $Mailer->SMTPDebug = 3;
+    $Mailer->IsSMTP();
+    $Mailer->Host = "smtp.pousadadaneve.com.br";
+    $Mailer->SMTPAuth = 'true';
+    $Mailer->Username = 'pousadadaneve@pousadadaneve.com.br';
+    $Mailer->Password = 'Hotel2018';
+    $Mailer->SMTSecure = 'tls';
+    $Mailer->Port = 587;
+    $Mailer->FromName = "{$Nome}";
+    $Mailer->From = "{$Email}";
+    $Mailer->AddAddress('pousadadaneve@pousadadaneve.com.br');
+    $Mailer->IsHTML(true);
+    $Mailer->Subject = "Novo e-mail de {$Email}".date("H:i")." - ".date("d/m/Y");
+    $Mailer->Body = "E-mail enviado por {$Nome} <br>Telefone: {$Telefone} <br>Cidade: {$Cidade} <br>Estado: {$Estado} <br>CEP: {$Cep} <br>Data de Chegada: {$Chegada} <br>Data de Saída: {$Saida} <br>Apartamento Escolhido: {$Apartamento} <br>Descrição dos Visitantes: {$Descricao}<br>Mensagem: {$Mensagem}";

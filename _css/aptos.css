@@ -1,0 +1,458 @@
+/* Override UGG site */
+#main {
+    position: relative;
+    float: left;
+    width: 95%; 
+    padding:0;
+}
+.content-asset p {
+    margin:0 auto;
+}
+.breadcrumb {
+    display:none;
+}
+/* Helpers */
+/**************************/
+.margin-top-10 {
+    padding-top:10px;
+}
+.margin-bot-10 {
+    padding-bottom:10px;
+}
+
+/* Typography */
+/**************************/
+.parallax-one h4:after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #FFF;
+    display: block;
+    position: relative;
+    margin: 20px auto 50px;
+}
+#parallax-world-of-ugg h4 {
+    font-family: 'Cinzel', serif; 
+    width: 100%;
+    font-size:30px;
+    letter-spacing:10px;
+    text-align:center;
+    color:white;  
+    opacity:.9;
+}
+#parallax-world-of-ugg h1 {
+    font-family: 'Cinzel', serif;
+    font-size:24px;
+    font-weight:400;  
+    color:black;
+    padding:0; 
+    margin:0;
+}
+
+.parallax-one h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.parallax-one h4 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#parallax-world-of-ugg h2 {
+    font-family: 'Cinzel', serif; 
+    font-size:70px;
+    width: 100%;
+    letter-spacing:10px;
+    text-align:center;
+    color:white;
+    font-weight:400;  
+}
+#parallax-world-of-ugg h3 {
+    font-family: 'Cinzel', serif;
+    font-size:30px;
+    line-height:60px;
+    font-weight:400; 
+    letter-spacing:5px;
+    color:black;
+}
+
+#parallax-world-of-ugg h5 {
+    font-family: 'Cinzel', serif;
+    font-size:20px;
+    margin: 0;
+    line-height:30px;
+    margin-bottom: 0;
+    font-weight:400; 
+    letter-spacing:8px;  
+    color:black;
+}
+
+#parallax-world-of-ugg h6 {
+    font-family: 'Cinzel', serif;
+    font-size:12px;
+    margin: 5px 0 20px;
+    font-weight:400; 
+    letter-spacing:8px;  
+    color:black;
+}
+
+#parallax-world-of-ugg p {
+    Font-Family: 'Fira Sans', Sans-Serif;
+    font-weight:400;
+    font-size:18px; 
+    line-height:24px;
+    color: #2A2A2A;
+}
+.first-character {
+    font-weight:400; 
+    float: left; 
+    font-size: 84px; 
+    line-height: 64px; 
+    padding-top: 4px; 
+    padding-right: 8px; 
+    padding-left: 3px; 
+    font-family: 'Cinzel', serif;color: #3E4095;
+}
+
+.sc {color: #3E4095;;}
+.ny {color: #3E4095;;}
+.atw {color: #3E4095;;}
+
+/* Section - Title */
+/**************************/
+#parallax-world-of-ugg .title {
+    background: white;
+    padding: 60px; 
+    margin:0 auto; 
+    text-align:center;
+}
+#parallax-world-of-ugg .title h1 {
+    font-size:35px; 
+    letter-spacing:8px;
+}
+
+/* Section - Block */
+/**************************/
+#parallax-world-of-ugg .block {
+    background: white;
+    padding: 30px 10%;
+    width:100%;
+    margin:0 auto;
+    float: left;
+    text-align:justify;
+    color: black;
+}
+#parallax-world-of-ugg .block-gray {
+    background: #f2f2f2;
+    padding: 60px;
+}
+#parallax-world-of-ugg .section-overlay-mask {
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: black;
+    opacity: 0.70;
+}
+
+.block ul li {
+  Font-Family: 'Fira Sans', Sans-Serif;
+    font-weight:400;
+    font-size:18px; 
+    line-height:24px;
+    color: #2A2A2A;  
+}
+
+.block-wrapper {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.block-wrapper ul {
+    position: relative;
+    float: left;
+    width: 100%;
+    display: grid;
+    padding: 0;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 10px;
+}
+
+.block-wrapper ul li {
+    position: relative;
+    float: left;
+    width: 100%;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.block-wrapper ul li img {
+    position: relative;
+    float: left;
+    width: 8%;
+}
+
+.block-wrapper ul li p {
+    position: relative;
+    float: left;
+    margin: 0 0 0 2%;
+}
+
+/* Section - Parallax */
+/**************************/
+#parallax-world-of-ugg .parallax-one {
+    overflow: hidden;
+    position: relative;
+    width: 100%; 
+    background-image: url(../_img/capa-apto.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 1;
+}
+#parallax-world-of-ugg .parallax-two {
+    padding: 300px 0;
+    overflow: hidden; 
+    position: relative;
+    width: 100%;
+    background-image: url(../_img/banheiro.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+}
+#parallax-world-of-ugg .parallax-three {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(../_img/tarifario.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    z-index: 1;
+}
+
+#parallax-world-of-ugg .parallax-four {
+    padding: 300px 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(../_img/quadros.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    z-index: 1;
+}
+
+#parallax-world-of-ugg .parallax-five {
+    padding: 300px 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(../_img/piscina.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    z-index: 1;
+}
+
+#parallax-world-of-ugg .parallax-six {
+    padding: 300px 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(../_img/bar.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    z-index: 1;
+}
+
+#parallax-world-of-ugg .parallax-seven {
+    padding: 300px 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(../_img/estacionamento.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    z-index: 1;
+}
+
+/* Extras */
+/**************************/
+#parallax-world-of-ugg .line-break {
+    border-bottom:1px solid black; 
+    width: 150px;
+    margin:0 auto;
+    clear: both;
+}
+
+.band-wrapper {
+    position: relative;
+    float: left;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 20px;
+    align-items: center;
+    padding-bottom: 50px;
+    clear: both;
+}
+
+.band-wrapper img {
+    position: relative;
+    width: 75%;
+}
+
+.voucher {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.voucher img {
+    position: relative;
+    width: 100%;
+}
+
+@-webkit-keyframes mouse-wheel {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translateY(5px);
+		transform: translateY(5px);
+	}
+}
+@-moz-keyframes mouse-wheel {
+	0% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	100% {
+		opacity: 0;
+		-moz-transform: translateY(5px);
+		transform: translateY(5px);
+	}
+}
+@keyframes mouse-wheel {
+	0% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateY(6px);
+	}
+}
+
+@-webkit-keyframes mouse-scroll {
+	0%   { opacity: 0;}
+	50%  { opacity: .5;}
+	100% { opacity: 1;}
+}
+@-moz-keyframes mouse-scroll {
+	0%   { opacity: 0; }
+	50%  { opacity: .5; }
+	100% { opacity: 1; }
+}
+@keyframes mouse-scroll {
+	0%   { opacity: 0; }
+	50%  { opacity: .5; }
+	100% { opacity: 1; }
+}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {
+      padding: 40px;
+      width:100%;
+      text-align: left;
+    }
+}
+@media screen and (max-width: 768px) {
+  #parallax-world-of-ugg h2 {
+      font-size:30px;
+    }
+  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {
+      padding-top:100px; 
+      padding-bottom:100px;
+    }
+    .block-wrapper ul {
+        grid-template-columns: repeat(1,1fr);
+    }
+    #parallax-world-of-ugg h3 {
+        font-size: 20px;
+        text-align: center;
+        line-height: 35px;
+        margin-top: 20px;
+    }
+    #parallax-world-of-ugg .title h1 {
+        font-size: 30px;
+        letter-spacing: normal;
+        padding: 10px;
+    }
+    
+    .band-wrapper img {
+        width: 100%;
+    }
+    #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three, #parallax-world-of-ugg .parallax-four, #parallax-world-of-ugg .parallax-five, #parallax-world-of-ugg .parallax-six, #parallax-world-of-ugg .parallax-seven, #parallax-world-of-ugg .parallax-eight, #parallax-world-of-ugg .parallax-nine, #parallax-world-of-ugg .parallax-ten, #parallax-world-of-ugg .parallax-eleven, #parallax-world-of-ugg .parallax-twelve {
+        background-attachment: scroll;
+    }
+}
+@media screen and (max-width: 425px) {
+    .block ul li {
+        font-size: 12px;
+    }
+    #parallax-world-of-ugg .title {
+        padding: 10px;
+    }
+    .band-wrapper {
+        grid-template-columns: repeat(3,1fr);
+    }
+    #parallax-world-of-ugg p {
+        font-size: 15px;
+        font-size: 15px;    
+    }
+}
